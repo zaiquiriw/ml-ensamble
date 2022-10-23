@@ -4,12 +4,12 @@ author: Zachary Canoot ^[[Zaiquiri's Portfolio](https://zaiquiriw.github.io/ml-p
         Gray Simpson ^[[Gray's Porfolio](https://ecclysium.github.io/MachineLearning_Portfolio/)]
 date: "`r format(Sys.time(), '%d %B, %Y')`"
 output:
+  pdf_document: default
   html_document:
     toc: yes
     toc_float:
       collapsed: true
       smooth_scroll: true
-  pdf_document: default
 editor_options: 
   markdown: 
     wrap: 80
@@ -344,7 +344,7 @@ the data were important in this data! So while linear regression was good at
 approximating the relationship, the radial kernel was *probably* able to better
 fit the data.
 
-## Link Dump of 
+## Link Dump!
 
 <https://stackoverflow.com/questions/13353213/gradient-of-n-colors-ranging-from-color-1-and-color-2>
 

@@ -4,13 +4,15 @@ author: Zachary Canoot ^[[Zaiquiri's Portfolio](https://zaiquiriw.github.io/ml-p
         Gray Simpson ^[[Gray's Porfolio](https://ecclysium.github.io/MachineLearning_Portfolio/)]
 date: "`r format(Sys.time(), '%d %B, %Y')`"
 output:
+  pdf_document: default
   html_document:
     toc: yes
     toc_float:
       collapsed: true
       smooth_scroll: true
-  pdf_document: default
 editor_options: 
   markdown: 
     wrap: 80
 ---
+
+Testing export
